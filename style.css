@@ -1,0 +1,33 @@
+/* Estilo para la clase .row */
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Estilo para la clase .col */
+.col {
+    flex: 1;
+    margin: 0 5px; /* Ajusta el margen según tus preferencias */
+    background-color: #30b8ac; /* Color de fondo opcional */
+    padding: 20px; /* Espacio interno opcional */
+    text-align: center; /* Centrar contenido opcional */
+}
+
+/* Estilo para la clase .col-2 */
+.col-2 {
+    flex: 2;
+    margin: 0 5px; /* Ajusta el margen según tus preferencias */
+    background-color: #30b8ac; /* Color de fondo opcional */
+    padding: 20px; /* Espacio interno opcional */
+    text-align: center; /* Centrar contenido opcional */
+}
+
+/* Estilo para la clase .col-3 */
+.col-3 {
+    flex: 3;
+    margin: 0 5px; /* Ajusta el margen según tus preferencias */
+    background-color: #30b8ac; /* Color de fondo opcional */
+    padding: 20px; /* Espacio interno opcional */
+    text-align: center; /* Centrar contenido opcional */
+}
